@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock-Paper-Scissors-Lizard-Spock</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js" defer></script>
+
+</head>
+<body>
+    <div class="selections">
+        <button class="selection" data-selection="rock">✊</button>
+        <button class="selection" data-selection="paper">✋</button>
+        <button class="selection" data-selection="scissors">✌</button>
+        <button class="selection" data-selection="lizard">🦎</button>
+        <button class="selection" data-selection="spock">🖖</button>
+    </div>
+
+    <div class="results">
+        <div>
+            You:
+            <span class="result-score" data-your-score>0</span>
+        </div>
+        <div data-final-column>
+            Computer:
+            <span class="result-score" data-computer-score>0</span>
+        </div>
+
+    </div>
+
+</body>
+</html>
